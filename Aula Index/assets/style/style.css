@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Unbounded&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    font-family: 'Unbounded', cursive;
+
+}
+
+header li {
+    display: inline-block;
+
+    margin: 10px;
+}
+
+header a {
+    text-decoration: none;
+
+    color: #232323;
+
+}
+
+.btn {
+    background-color: none;
+    border: none;
+    
+
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    font-family: 'Unbounded', cursive;
+    cursor: pointer;
+
+}
+
+.home-page {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.text-home h1 {
+    font-family: 'Unbounded', cursive;
+    margin-bottom: 10px;
+}
+.text-home p {
+    margin-bottom: 10px;
+    color: #505050;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-page img {
+    display: block;
+
+    width: 100%;
+    max-width: 700px;
+}
+
+.text-home button {
+    background-color: #232323;        
+    color: aliceblue;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    font-family: 5px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #f5f7fa;
+}
+
+.recursos {
+    margin-top: 5%;
+}
+.h1-rec {
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-size: 40px;
+    
+}
+
+.card-section {
+    padding-top: 5%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 10px;
+
+    
+}
+
+.card {
+    display: grid;
+    gap: 10px;
+    width: 300px;
+}
+.card img {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+}
+
+.card h1 {
+    font-family: 'Unbounded', cursive;
+}
+.card p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #232323;
+}
+
+.app-section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-section ul img {
+    width: 100%;
+    max-width: 20px;
+}
+.app-section li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #232323;
+}
+
+.app-section img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+}
+
+.text-app {
+    display: grid;
+    gap: 10px;
+}
+
+.text-app h1 {
+    font-family: 'Unbounded', cursive;
+
+}
+
+.btn-app button {
+    padding: 10px 30px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+.btn-app {
+    display: flex;
+    gap: 10px;
+}
+.btn-app img {
+    width: 100%;
+    max-width: 30px;
+}
